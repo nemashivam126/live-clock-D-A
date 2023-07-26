@@ -1,0 +1,94 @@
+.container {
+    display: flex;
+    justify-content: center;
+    font-size: 100px;
+    position: relative;
+    top: 80px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.heading{
+    text-align: center;
+}
+
+h1{
+    background-color: burlywood;
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+    font-size: 40px;
+}
+
+.watch{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clockmain {
+    position: absolute;
+    width: 250px;
+    height: 275px;
+    /* left: 635.5px; */
+    top: -60px;
+}
+
+.clock {
+    background-color: darkcyan;
+    color: white;
+    box-shadow: 15px 15px 15px 5px black;
+    padding: 20px;
+    border-radius: 20px;
+    border: 10px solid burlywood;
+    /* width: 30%; */
+    height: 110px;
+    text-align: center;
+    position: absolute;
+    top: 250px;
+}
+
+.hours {
+    background-color: black;
+    height: 45px;
+    width: 6px;
+    position: absolute;
+    top: 46px;
+    /* left: 758px; */
+    /* transform: rotate(13deg); */
+    transform-origin: bottom;
+}
+
+.mins {
+    background-color: black;
+    height: 68px;
+    width: 4px;
+    position: absolute;
+    top: 25px;
+    /* left: 759px; */
+    /* transform: rotate(45deg); */
+    transform-origin: bottom;
+}
+
+.secs {
+    background-color: tomato;
+    height: 68px;
+    width: 2px;
+    position: absolute;
+    top: 25px;
+    /* left: 760px; */
+    /* transform: rotate(0deg); */
+    transform-origin: bottom;
+}
+
+.dot {
+    background: tomato;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 85px;
+    /* left: 754px; */
+    margin-left: -7px;
+    border-radius: 50%;
+}

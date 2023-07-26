@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clock</title>
+  <link rel="stylesheet" href="clock.css">
+</head>
+
+<body>
+  <div class="content">
+    <div class="heading">
+      <h1>Digital & Analog Watch Using JavaScript</h1>
+    </div>
+    <div class="container">
+      <div id="watch" class="watch" style="text-align: center;">
+        <img class="clockmain" src="clock.png" alt="Clock" width="50%" height="50%">
+        <div class="hours-container">
+          <div class="hours" id="hours"></div>
+        </div>
+        <div class="hours-container">
+          <div class="mins" id="mins"></div>
+        </div>
+        <div class="hours-container">
+          <div class="secs" id="secs"></div>
+        </div>
+        <div class="hours-container">
+          <div class="dot"></div>
+        </div>
+      </div>
+      <div class="clock" id="time">
+        <span id="displaytime"></span>
+        <span id="ampm" style="font-size: 20px;"></span>
+      </div>
+    </div>
+  </div>
+  <script src="clock.js"></script>
+</body>
+
+</html>
